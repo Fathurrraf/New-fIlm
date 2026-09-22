@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bad Boys - My Movie Picks</title>
+    <link rel="stylesheet" href="Badboys.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <p class="small-title">MY MOVIE PICKS</p>
+        <h1>Movie Collection</h1>
+        <p class="subtitle">A selection of films I like</p>
+    </div>
+</header>
+
+<main>
+
+    <section class="movie-page">
+
+        <p class="section-label">04 / BAD BOYS</p>
+
+        <h2>Bad Boys</h2>
+
+        <p class="movie-description">
+            Bad Boys adalah film aksi komedi yang mengikuti dua polisi
+            dengan karakter yang berbeda. Mereka harus bekerja sama untuk
+            menangani sebuah kasus kriminal sambil menghadapi berbagai
+            masalah dan situasi yang cukup menghibur.
+        </p>
+
+        <div class="video-section">
+
+            <div id="badBoysVideo"></div>
+
+            <div class="video-buttons">
+                <button onclick="playVideo()">Play</button>
+                <button onclick="pauseVideo()">Pause</button>
+                <button onclick="smallVideo()">Small</button>
+                <button onclick="normalVideo()">Normal</button>
+                <button onclick="bigVideo()">Big</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    © 2026 My Movie Picks
+</footer>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('badBoysVideo', {
+        width: '650',
+        height: '365',
+        videoId: 'UTNcOwQ2lRw'
+    });
+}
+
+function playVideo() {
+    player.playVideo();
+}
+
+function pauseVideo() {
+    player.pauseVideo();
+}
+
+function smallVideo() {
+    player.setSize(450, 253);
+}
+
+function normalVideo() {
+    player.setSize(650, 365);
+}
+
+function bigVideo() {
+    player.setSize(850, 478);
+}
+
+</script>
+
+</body>
+</html>

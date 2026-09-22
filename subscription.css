@@ -1,0 +1,225 @@
+/* ============================= */
+/* RESET */
+/* ============================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+}
+
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header {
+    background-color: #111111;
+    color: white;
+}
+
+.header-content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 45px 0 35px;
+}
+
+.small-title {
+    margin: 0 0 12px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #bdbdbd;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    margin: 18px 0 0;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+
+/* ============================= */
+/* NAVIGATION */
+/* ============================= */
+
+nav {
+    border-top: 1px solid #292929;
+    padding: 18px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 14px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a.active {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ============================= */
+/* MAIN */
+/* ============================= */
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 70px 0 80px;
+}
+
+
+/* ============================= */
+/* SUBSCRIPTION HEADER */
+/* ============================= */
+
+.subscription-header {
+    width: 700px;
+    margin-bottom: 55px;
+}
+
+.section-label {
+    margin: 0 0 18px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #888888;
+}
+
+.subscription-header h2 {
+    margin: 0 0 22px;
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.subscription-description {
+    width: 620px;
+    margin: 0;
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* ============================= */
+/* SUBSCRIPTION LIST */
+/* ============================= */
+
+.subscription-list {
+    width: 900px;
+}
+
+.subscription-list ol {
+    margin: 0;
+    padding-left: 35px;
+}
+
+
+/* ============================= */
+/* PACKAGE */
+/* ============================= */
+
+.subscription-list li {
+    padding-left: 18px;
+    margin-bottom: 25px;
+}
+
+.package {
+    width: 100%;
+    padding: 32px 35px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    transition: 0.2s;
+}
+
+.package:hover {
+    border-color: #999999;
+}
+
+
+/* ============================= */
+/* PACKAGE NUMBER */
+/* ============================= */
+
+.package-number {
+    margin: 0 0 14px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+
+/* ============================= */
+/* PACKAGE TITLE */
+/* ============================= */
+
+.package h3 {
+    margin: 0 0 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* ============================= */
+/* PRICE */
+/* ============================= */
+
+.price {
+    margin: 0 0 18px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222222;
+}
+
+
+/* ============================= */
+/* PACKAGE DESCRIPTION */
+/* ============================= */
+
+.package-description {
+    width: 650px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+}
+
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+    border-top: 1px solid #dddddd;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #888888;
+}

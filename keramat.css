@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f7f5;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #181818;
+    color: white;
+}
+
+.header-content {
+    width: 1000px;
+    margin: auto;
+    padding: 50px 40px;
+}
+
+.small-title {
+    margin: 0 0 18px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.subtitle {
+    margin: 15px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+/* MAIN */
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+.movie-page {
+    padding: 55px 40px 80px;
+    min-height: 600px;
+}
+
+.section-label {
+    margin: 0 0 18px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #888;
+}
+
+.movie-page h2 {
+    margin: 0 0 20px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.movie-description {
+    width: 650px;
+    margin: 0 0 40px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+/* VIDEO */
+
+.video-section {
+    width: 850px;
+}
+
+#big4Video {
+    display: block;
+}
+
+
+/* BUTTON */
+
+.video-buttons {
+    margin-top: 18px;
+    display: flex;
+    gap: 8px;
+}
+
+.video-buttons button {
+    padding: 9px 16px;
+    background-color: white;
+    color: #222;
+    border: 1px solid #222;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.video-buttons button:hover {
+    background-color: #222;
+    color: white;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 1000px;
+    margin: auto;
+    padding: 25px 40px;
+    border-top: 1px solid #ddd;
+    color: #999;
+    font-size: 12px;
+}

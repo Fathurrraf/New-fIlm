@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Keramat - My Movie Picks</title>
+
+    <link rel="stylesheet" href="keramat.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <p class="small-title">MY MOVIE PICKS</p>
+
+        <h1>Movie Collection</h1>
+
+        <p class="subtitle">A selection of films I like</p>
+    </div>
+</header>
+
+
+<main>
+
+    <section class="movie-page">
+
+        <p class="section-label">02 / Keramat</p>
+
+        <h2>Keramat</h2>
+
+        <p class="movie-description">
+            Keramat adalah film horor Indonesia yang mengikuti perjalanan
+            sekelompok orang saat melakukan proses pembuatan film di sebuah
+            daerah. Kejadian aneh mulai terjadi dan membuat perjalanan mereka
+            berubah menjadi pengalaman yang menegangkan..
+        </p>
+
+
+        <div class="video-section">
+
+            <div id="Keramat Video"></div>
+
+            <div class="video-buttons">
+                <button onclick="playVideo()">Play</button>
+                <button onclick="pauseVideo()">Pause</button>
+                <button onclick="smallVideo()">Small</button>
+                <button onclick="normalVideo()">Normal</button>
+                <button onclick="bigVideo()">Big</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    © 2026 My Movie Picks
+</footer>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+
+    player = new YT.Player('Keramat Video', {
+        width: '650',
+        height: '365',
+        videoId: 'tsKzb35pawc'
+    });
+
+}
+
+function playVideo() {
+    player.playVideo();
+}
+
+function pauseVideo() {
+    player.pauseVideo();
+}
+
+function smallVideo() {
+    player.setSize(450, 253);
+}
+
+function normalVideo() {
+    player.setSize(650, 365);
+}
+
+function bigVideo() {
+    player.setSize(850, 478);
+}
+
+</script>
+
+</body>
+</html>

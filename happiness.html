@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Happiness - My Movie Picks</title>
+
+    <link rel="stylesheet" href="happiness.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <p class="small-title">MY MOVIE PICKS</p>
+
+        <h1>Movie Collection</h1>
+
+        <p class="subtitle">A selection of films I like</p>
+    </div>
+</header>
+
+
+<main>
+
+    <section class="movie-page">
+
+        <p class="section-label">05 / HAPPINESS</p>
+
+        <h2>Happiness</h2>
+
+        <p class="movie-description">
+            Happiness bercerita tentang penghuni sebuah apartemen
+            yang harus bertahan hidup ketika wabah misterius
+            menyebar dan mengubah manusia menjadi makhluk
+            yang agresif.
+        </p>
+
+
+        <div class="video-section">
+
+            <div id="Happiness Video"></div>
+
+            <div class="video-buttons">
+                <button onclick="playVideo()">Play</button>
+                <button onclick="pauseVideo()">Pause</button>
+                <button onclick="smallVideo()">Small</button>
+                <button onclick="normalVideo()">Normal</button>
+                <button onclick="bigVideo()">Big</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    © 2026 My Movie Picks
+</footer>
+
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+
+    player = new YT.Player('Happiness Video', {
+        width: '650',
+        height: '365',
+        videoId: 'gqhUlldiLEo'
+    });
+
+}
+
+function playVideo() {
+    player.playVideo();
+}
+
+function pauseVideo() {
+    player.pauseVideo();
+}
+
+function smallVideo() {
+    player.setSize(450, 253);
+}
+
+function normalVideo() {
+    player.setSize(650, 365);
+}
+
+function bigVideo() {
+    player.setSize(850, 478);
+}
+
+</script>
+
+</body>
+</html>

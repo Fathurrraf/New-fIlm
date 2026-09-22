@@ -1,0 +1,115 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f7f5;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #181818;
+    color: white;
+}
+
+.header-content {
+    width: 1000px;
+    margin: auto;
+    padding: 50px 40px 45px;
+}
+
+.small-title {
+    margin: 0 0 15px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.subtitle {
+    margin: 15px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    width: 1000px;
+    margin: auto;
+    padding: 18px 40px;
+    display: flex;
+    gap: 35px;
+    border-top: 1px solid #333;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+}
+
+
+/* MAIN */
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+
+/* ABOUT */
+
+.about-page {
+    padding: 55px 40px 100px;
+    min-height: 500px;
+}
+
+.section-label {
+    margin: 0 0 18px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #888;
+}
+
+.about-page h2 {
+    margin: 0 0 20px;
+    font-size: 34px;
+}
+
+.about-page p {
+    width: 750px;
+    margin: 0 0 15px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 1000px;
+    margin: auto;
+    padding: 25px 40px;
+    border-top: 1px solid #ddd;
+    color: #999;
+    font-size: 12px;
+}
