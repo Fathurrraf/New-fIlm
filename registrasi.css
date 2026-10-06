@@ -68,97 +68,70 @@ nav a.active {
 }
 
 
-/* REGISTRASI */
+/* HOME */
 
 main {
     width: 1000px;
     margin: auto;
 }
 
-.registration {
-    padding: 55px 40px 70px;
+
+/* WELCOME */
+
+.welcome {
+    padding: 90px 40px 70px;
+    border-bottom: 1px solid #dddddd;
 }
 
-.registration h2 {
+.section-label {
+    margin: 0 0 18px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #888888;
+}
+
+.welcome h2 {
     margin: 0 0 35px;
     font-size: 38px;
     line-height: 1.2;
     font-weight: normal;
 }
 
-.registration form {
-    width: 650px;
-}
-
-.registration label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 13px;
+.description {
+    width: 680px;
+    margin: 0 0 20px;
+    font-size: 15px;
+    line-height: 1.8;
     color: #555555;
 }
 
-.registration input[type="text"],
-.registration input[type="email"],
-.registration input[type="password"],
-.registration select {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 22px;
-    border: 1px solid #cccccc;
-    background-color: white;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-}
 
-.registration input:focus,
-.registration select:focus {
-    outline: none;
-    border-color: #222222;
-}
+/* MOVIE INTRO */
 
-
-/* PEMBAYARAN */
-
-.payment {
+.movie-intro {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px;
+    padding: 55px 40px;
 }
 
-.payment input {
-    margin: 0 8px 0 0;
-}
-
-.payment label {
+.movie-intro h3 {
     margin: 0;
-    color: #222222;
-    font-size: 14px;
+    font-size: 24px;
+    font-weight: normal;
 }
 
-
-/* PILIHAN PEMBAYARAN */
-
-.hidden {
-    display: none;
-}
-
-
-/* BUTTON */
-
-button {
-    margin-top: 10px;
-    padding: 12px 25px;
+.movie-intro a {
+    padding: 12px 20px;
     border: 1px solid #222222;
+    color: #222222;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.movie-intro a:hover {
     background-color: #222222;
     color: white;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: white;
-    color: #222222;
 }
 
 
@@ -171,120 +144,4 @@ footer {
     border-top: 1px solid #dddddd;
     color: #999999;
     font-size: 12px;
-}* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #222;
-}
-
-header {
-    width: 1000px;
-    margin: auto;
-    background-color: #222;
-    color: white;
-    padding: 20px 30px;
-}
-
-header h1 {
-    margin: 0 0 15px 0;
-}
-
-nav {
-    display: flex;
-    gap: 25px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    width: 1000px;
-    margin: auto;
-    padding: 40px 0;
-}
-
-.registration {
-    width: 600px;
-    margin: auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-}
-
-.registration h2 {
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-
-.registration label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 7px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.payment {
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-}
-
-.payment input {
-    margin-right: 8px;
-}
-
-.payment label {
-    margin: 0;
-    font-weight: normal;
-}
-
-.hidden {
-    display: none;
-}
-
-button {
-    width: 100%;
-    margin-top: 25px;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    background-color: #222;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #444;
-}
-
-footer {
-    width: 1000px;
-    margin: auto;
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 15px;
 }
