@@ -4,6 +4,179 @@
 
 body {
     margin: 0;
+    background-color: #f7f7f5;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #181818;
+    color: white;
+}
+
+.header-content {
+    width: 1000px;
+    margin: auto;
+    padding: 70px 40px 55px;
+}
+
+.small-title {
+    margin: 0 0 20px;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #999999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin: 20px 0 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    width: 1000px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    gap: 35px;
+    border-top: 1px solid #333333;
+}
+
+nav a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+}
+
+
+/* REGISTRASI */
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+.registration {
+    padding: 55px 40px 70px;
+}
+
+.registration h2 {
+    margin: 0 0 35px;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.registration form {
+    width: 650px;
+}
+
+.registration label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #555555;
+}
+
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"],
+.registration select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 22px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.registration input:focus,
+.registration select:focus {
+    outline: none;
+    border-color: #222222;
+}
+
+
+/* PEMBAYARAN */
+
+.payment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.payment input {
+    margin: 0 8px 0 0;
+}
+
+.payment label {
+    margin: 0;
+    color: #222222;
+    font-size: 14px;
+}
+
+
+/* PILIHAN PEMBAYARAN */
+
+.hidden {
+    display: none;
+}
+
+
+/* BUTTON */
+
+button {
+    margin-top: 10px;
+    padding: 12px 25px;
+    border: 1px solid #222222;
+    background-color: #222222;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #222222;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 1000px;
+    margin: auto;
+    padding: 25px 40px;
+    border-top: 1px solid #dddddd;
+    color: #999999;
+    font-size: 12px;
+}* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #222;
